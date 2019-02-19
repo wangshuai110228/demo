@@ -27,7 +27,7 @@ public class AnswerAction {
       public void  addAnswer(Answer answer){
           Integer id = answer.getId();
           if (id!=null){
-             //修改
+             //修改111111
               answerService.updateAnswer(answer);
           }else {
               answerService.addAnswer(answer);
